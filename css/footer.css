@@ -1,0 +1,72 @@
+html{
+	scroll-behavior: smooth;
+}
+
+
+.footer{
+  width: 100%;
+  
+  background-image: linear-gradient(to bottom,rgb(204, 205, 206), rgb(201, 203, 204));
+  color: black;
+  opacity: 0.8;
+  /*background-image: linear-gradient(to right,#6dc0f2 , #0092cc);*/
+  
+}
+.footer p{
+ 
+  font-size: 17px;
+  
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+  
+}
+
+.footer-1-sec{
+  width: 50%;
+  text-align: left;
+  
+  
+}
+.footer-2-sec{
+  width:50%;
+  text-align: right;
+
+   
+}
+.footer-2-sec img{
+ 
+  margin-top: 30px;
+  margin-bottom: 15px;
+text-align: right;
+
+
+}
+.footer-3-sec{
+  width: 60%;
+  
+  text-align: center;
+ 
+  font-size: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  font-style: italic;
+  padding-bottom: 10px;
+  color:black;
+  border-bottom: 2px solid;
+  margin: 0 auto;
+  border-bottom: 2px solid;
+  padding-top: 10px;
+}
+.Suggest-button{
+  
+  margin-top: 30px;
+  
+  border: 2px solid ;
+   border-radius: 10px;
+   
+}
+.button1:hover{
+	background-color:#0092cc;
+	color:white;
+}

@@ -1,0 +1,114 @@
+html{
+	scroll-behavior: smooth;
+}
+
+.navcontainer{
+    width: 100%;
+    background-color: white;  }
+  /*for nav conatiner*/
+  .fornav{
+    width: 80%;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+  }
+   .has-sub-menu{
+    position: relative;
+}
+.sub-menu-container{
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  
+}
+.has-sub-menu:hover .sub-menu-container{
+  display: block;
+  
+}
+.has-sub-menu:hover{
+  background-color: #0092cc;
+
+}
+.name{
+  color: #0092cc;
+  font-weight: bold;
+}
+.sub-menu{
+  width: 230px;
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: left;
+
+}
+
+.sub-menu li{
+  padding-left: 5px; 
+}
+  
+ 
+.bookimg{
+    height: 200px;
+    box-shadow: 10px 10px 5px grey;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    
+}
+.hovernav:hover {
+  background-color: #0092cc;
+}
+.navimg{
+  width: 20px;
+}
+main{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#backgroundimage{
+  background-image: url("../img/photo/motorbike3.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+#witheight{
+  width: 150px;
+  height: 150px;
+  margin-left: 50px;
+  border-radius: 15px;
+}
+#flex{
+  display: flex;
+}
+#witheight1{
+  width: 150px;
+  height: 150px;
+  margin-right: 50px;
+  border-radius: 15px;
+}
+#flex1{
+  display: flex;
+  float: right;
+}
+main p{
+  font-weight: bold;
+}
+#buttonprevious{
+  margin-left: 60px;
+  border: 2px ridge #0092cc;
+  box-shadow: 5px 5px 5px #0092cc;
+  background-color: #eaeaea;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+a, a:active, a:focus {
+  outline: none;
+}
+
+button, button:active, button:focus{
+   outline: none;
+}

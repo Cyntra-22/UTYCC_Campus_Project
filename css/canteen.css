@@ -1,0 +1,269 @@
+body,html{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+  }
+
+.title{
+  width: 100%;
+  height: 250px;
+  background-image: linear-gradient(rgba(0, 62, 143, 0.5),rgba(0, 20, 58, 0.5)), url("../img/canteentt_back.jpg");
+  background-size: cover;
+}
+
+.title img{
+  width: 40%;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.navcontainer{
+    width: 100%;
+    background-color: white;  }
+  /*for nav conatiner*/
+  .fornav{
+    width: 80%;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+  }
+   .has-sub-menu{
+    position: relative;
+}
+.sub-menu-container{
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  
+}
+.has-sub-menu:hover .sub-menu-container{
+  display: block;
+  
+}
+.has-sub-menu:hover{
+  background-color: #0092cc;
+
+}
+.name{
+  color: #0092cc;
+  font-weight: bold;
+}
+.sub-menu{
+  width: 230px;
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: left;
+
+}
+
+.sub-menu li{
+  padding-left: 5px; 
+}
+  
+ 
+.bookimg{
+    height: 200px;
+    box-shadow: 10px 10px 5px grey;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    
+}
+.hovernav:hover {
+  background-color: #0092cc;
+}
+.navimg{
+  width: 20px;
+}
+#wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+#with{
+  width: 100%;
+}
+#rowdata{
+    display: flex;
+    margin-left: 40px;
+
+}
+#data{
+    
+    padding:8px;
+    border-radius: 20px;
+    height: 690px;
+    
+}
+
+#caption{
+    text-align: center;
+    font-size: 20px;
+    background-color: #eaeaea;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    height: 40px;
+}
+#fontdata{
+    margin-top: 20px;
+    height: 370px;
+    overflow: auto;
+    background-color: #eaeaea;
+    border-radius: 20px;
+    font-size: 20px;
+}
+#fontdata li{
+  list-style-type: disc;
+  margin-left: 30px;
+}
+#data1{
+  margin-left: 200px;
+  padding:8px;
+  border-radius: 20px;
+  height: 690px;
+  
+}
+#data2{
+  margin-left: 60px;  
+  padding:8px;
+  border-radius: 20px;
+  height: 690px;
+  
+}
+#fontdata1{
+  margin-top: 20px;
+  width: 350px;
+  height: 370px;
+  overflow: auto;
+  background-color: #eaeaea;
+  border-radius: 20px;
+  font-size: 20px;
+}
+#fontdata1 li{
+  list-style-type: disc;
+  margin-left: 30px;
+}
+
+a, a:active, a:focus {
+  outline: none;
+}
+
+button, button:active, button:focus{
+   outline: none;
+}
+
+
+
+
+
+#imgdata1{
+  width: 350px;
+  height: 230px;
+  border-radius: 20px;
+  background-image: linear-gradient(rgba(0, 62, 143, 0.2),rgba(0, 20, 58, 0.3)),url("../img/canteen_photo/restaurant14.jpeg");
+  background-size: cover;
+}
+
+#imgdata1 img{
+  width: 50%;
+  margin: auto;
+  padding-top: 80px;
+}
+
+#imgdata2{
+  width: 350px;
+  height: 230px;
+  border-radius: 20px;
+  background-image: linear-gradient(rgba(0, 62, 143, 0.2),rgba(0, 20, 58, 0.3)),url("../img/canteen_photo/restaurant4.jpeg");
+  background-size: cover;
+}
+
+#imgdata2 img{
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+}
+
+#imgdata3{
+  width: 350px;
+  height: 230px;
+  border-radius: 20px;
+  background-image: linear-gradient(rgba(0, 62, 143, 0.2),rgba(0, 20, 58, 0.3)),url("../img/canteen_photo/restaurant5.jpeg");
+  background-size: cover;
+}
+
+#imgdata3 img{
+  width: 50%;
+  margin: auto;
+  padding-top: 80px;
+}
+
+#imgdata4{
+  width: 350px;
+  height: 230px;
+  border-radius: 20px;
+  background-image: linear-gradient(rgba(0, 62, 143, 0.2),rgba(0, 20, 58, 0.3)),url("../img/canteen_photo/restaurant5.jpeg");
+  background-size: cover;
+}
+
+#imgdata4 img{
+  width: 40%;
+  margin: auto;
+  padding-top: 80px;
+}
+
+#imgdata5{
+  width: 350px;
+  height: 230px;
+  border-radius: 20px;
+  background-image: linear-gradient(rgba(0, 62, 143, 0.2),rgba(0, 20, 58, 0.3)),url("../img/canteen_photo/restaurant4.jpeg");
+  background-size: cover;
+}
+
+#imgdata5 img{
+  width: 25%;
+  margin: auto;
+  padding-top: 80px;
+}
+
+#imgdata6{
+  width: 350px;
+  height: 230px;
+  border-radius: 20px;
+  background-image: linear-gradient(rgba(0, 62, 143, 0.2),rgba(0, 20, 58, 0.3)),url("../img/canteen_photo/restaurant14.jpeg");
+  background-size: cover;
+}
+
+#imgdata6 img{
+  width: 70%;
+  margin: auto;
+  padding-top: 80px;
+}
+
+#imgdata7{
+  width: 350px;
+  height: 230px;
+  border-radius: 20px;
+  background-image: linear-gradient(rgba(0, 62, 143, 0.2),rgba(0, 20, 58, 0.3)),url("../img/canteen_photo/restaurant5.jpeg");
+  background-size: cover;
+}
+
+#imgdata7 img{
+  width: 50%;
+  margin: auto;
+  padding-top: 90px;
+}
+
+#imgdata8{
+  width: 350px;
+  height: 230px;
+  border-radius: 20px;
+  background-image: linear-gradient(rgba(0, 62, 143, 0.2),rgba(0, 20, 58, 0.3)),url("../img/canteen_photo/propaganda.jpg")
+}
+
+#imgdata8 img{
+  width: 60%;
+  margin: auto;
+  padding-top: 90px;
+}

@@ -1,0 +1,73 @@
+html{
+	scroll-behavior: smooth;
+}
+
+#wapper{
+	width: 80%;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.title{
+	width: 100%;
+	height: 250px;
+	background-image: linear-gradient(rgba(0, 62, 143, 0.5),rgba(0, 20, 58, 0.5)),url(../img/redcrosstt_back.png);
+	background-size: cover;
+}
+
+.title img{
+	width: 70%;
+	margin: auto;
+	padding-top: 60px;
+}
+
+#rclogo{
+	width: 100%;
+	height: 450px;
+}
+
+#rcbio{
+	padding: 5px;
+	background-color: #eaeaea;
+}
+
+
+#founderimage{
+	height: 280px;
+	width: 289px;
+}
+#founderdata{
+	display: flex;
+	
+}
+#founderfont{
+	margin-left: 30px;
+}
+#gallerydata{
+	display: flex;
+
+
+}
+#imgsize{
+	width: 150px;
+	height:150px;
+	margin-left: 35px;
+	border-radius: 15px;
+}
+#gallery{
+	background-color: #eaeaea;
+	padding-top: 40px;
+		
+}
+ #buttomdata:hover{
+	background-color: #0092cc;
+	color: white;
+	width: 150px;}
+
+	a, a:active, a:focus {
+		outline: none;
+	 }
+	
+	 button, button:active, button:focus{
+		 outline: none;
+	 }

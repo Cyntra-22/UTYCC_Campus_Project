@@ -1,0 +1,171 @@
+html{
+	scroll-behavior: smooth;
+}
+
+.header{
+   
+  text-align: center;
+   
+    
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0px;
+}
+/* Main  */
+main{
+    width:80%;
+    padding: 0px;
+    
+	margin-left: auto;
+	margin-right: auto;
+    overflow: auto;
+    
+    
+}
+
+
+  /*Pagination CSS*/
+  .pagination {
+    display: inline-block;
+    width: 15%;
+    font-size: 20px;
+    position: absolute;
+    margin-top: -40px;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  .pagination a:hover {
+    background-color: #0092cc;
+    color: white;
+  }
+  
+  /*.pagination a:hover:not(.active) {background-color: #ddd;}
+  
+  /*  Up Button */
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+   color: #000;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  
+  #myBtn:hover {
+   width: 52px;
+   height: 50px;
+   padding: 8px;
+   border-radius: 50%;
+  }
+  /*for hide button*/
+  .hide-button{
+    height: 30px;
+    padding: 5px;
+    background-color: #eaeaea;
+    width: 50px;
+    margin-top: -8px;
+    
+  }
+  .hide-button:hover{
+    background-color: #0092cc;
+    color:white;
+  }
+ 
+  .seleted-new-header{
+    align-items: center;
+     padding-left: 25px;
+      width: 95%;
+   border-bottom:1px solid #eaeaea;
+   font-size: 25px;
+  }
+  /*footer*/
+  .footer{
+    width: 100%;
+    
+    background-image: linear-gradient(to bottom,rgb(204, 205, 206), rgb(201, 203, 204));
+    color: black;
+    opacity: 0.8;
+   
+    
+  }
+  .footer p{
+   
+    font-size: 17px;
+    
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    
+  }
+  
+  .footer-1-sec{
+    width: 50%;
+    text-align: left;
+    
+    
+  }
+  .footer-2-sec{
+    width:50%;
+    text-align: right;
+  
+     
+  }
+  .footer-2-sec img{
+   
+    margin-top: 30px;
+    margin-bottom: 15px;
+  text-align: right;
+  
+  
+  }
+  .footer-3-sec{
+    width: 60%;
+    
+    text-align: center;
+   
+    font-size: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    font-style: italic;
+    padding-bottom: 10px;
+    color:black;
+    border-bottom: 2px solid;
+    margin: 0 auto;
+    border-bottom: 2px solid;
+    padding-top: 10px;
+  }
+  .Suggest-button{
+    width:100px;
+    height: 30px;
+    margin-top: 30px;
+    
+    border: 2px solid ;
+     border-radius: 10px;
+     
+  }
+  
+  a, a:active, a:focus {
+    outline: none;
+ }
+
+ button, button:active, button:focus{
+     outline: none;
+ }

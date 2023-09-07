@@ -1,0 +1,233 @@
+body,html{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+  }
+
+.navcontainer{
+    width: 100%; }
+  
+/*for nav conatiner*/
+.fornav{
+    width: 80%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+   
+.has-sub-menu{
+    position: relative;
+  }
+
+.sub-menu-container{
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  }
+
+.has-sub-menu:hover .sub-menu-container{
+  display: block;
+  }
+
+.has-sub-menu:hover{
+  background-color: #0092cc;
+  }
+
+.name{
+  color: #0092cc;
+  font-weight: bold;
+  }
+
+.sub-menu{
+  width: 230px;
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: left;
+  }
+
+.sub-menu li{
+  padding-left: 5px; 
+  }
+  
+.bookimg{
+    height: 200px;
+    box-shadow: 10px 10px 5px grey;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+  }
+
+.hovernav:hover {
+  background-color: #0092cc;
+  }
+
+.navimg{
+  width: 20px;
+  }
+
+
+.title{
+  width: 100%;
+  height: 250px;
+  background-image: linear-gradient(rgba(0, 62, 143, 0.5),rgba(0, 20, 58, 0.5)),url("../img/coursestt_back.jpg");
+  background-size: cover;
+}
+
+.title img{
+  width: 40%;
+  padding-top: 70px;
+  margin: auto;
+}
+
+/*Css properties for information for Courses*/
+
+.display {display: flex;
+          margin-left: 2em;
+          margin-right: 2em;
+          border: none;
+          }
+
+#tableimgdata{
+    height: 120px;
+    width: 120px;
+    margin-top: 2.5em;
+    margin-right: 2em;
+    border-radius: 5px;
+}
+
+main {width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+table span {font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(19, 153, 177); 
+            font-size: 20px;
+            }
+
+table p {font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 15px;}
+                   
+
+table {width: 37em;
+      height: 12em;
+      margin-top: 2em;
+      margin-bottom: 2.5em;
+      margin-left: 0;
+      margin-right: 5em;
+      border-radius: 10px;
+      box-shadow: 10px -10px rgb(19, 153, 177);
+      background-color: #eaeaea;
+      }
+
+/*Css properties for Hover image*/
+.imgdata {width: 13em;
+  height: 13em;}
+
+.largeimagedata {width: 25em;
+         height: 20em;}
+
+.leftdiv {margin-top: 1em; 
+  margin-bottom: 1em; 
+  margin-left: 0em; 
+  margin-right: 0;}
+
+.rightdiv {width: 37em;
+   margin-left: 10em; 
+   margin-right: 0;
+   margin-top: 10em;
+   margin-bottom: 3.3em;
+   padding-bottom: 0.5em;
+   }
+
+.rightdiv figure img {width: 100%;
+              border-radius: 6px;
+            }
+
+.subdiv {display: flex;
+ margin-top: 2em;
+ margin-bottom: 2em;
+}
+
+.marginimg {margin-right: 3em;}
+
+.subdiv img {margin-left: 1em; 
+     margin-right: 1em;
+     border-style: none;
+     border-radius: 10px;
+   }
+
+main figure figcaption {font-weight: bold; 
+                font-size: 2.5em;
+                color: #3498DB;
+                text-align: center;
+                margin-top: 2em;
+              }
+
+/*Css Properties for footer*/
+.footer{
+  width: 100%;
+  
+  background-image: linear-gradient(to bottom,rgb(204, 205, 206), rgb(201, 203, 204));
+  color: black;
+  opacity: 0.8;
+}
+.footer p{
+ 
+  font-size: 17px;
+  
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+  
+}
+
+.footer-1-sec{
+  width: 50%;
+  text-align: left;
+  
+  
+}
+.footer-2-sec{
+  width:50%;
+  text-align: right;
+
+   
+}
+.footer-2-sec img{
+ 
+  margin-top: 30px;
+  margin-bottom: 15px;
+text-align: right;
+
+
+}
+.footer-3-sec{
+  width: 60%;
+  
+  text-align: center;
+ 
+  font-size: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  font-style: italic;
+  padding-bottom: 10px;
+  color:black;
+  border-bottom: 2px solid;
+  margin: 0 auto;
+  border-bottom: 2px solid;
+  padding-top: 10px;
+}
+.Suggest-button{
+  margin-top: 30px;
+  border: 2px solid ;
+   border-radius: 10px;
+   
+}
+
+a, a:active, a:focus {
+  outline: none;
+}
+
+button, button:active, button:focus{
+   outline: none;
+}

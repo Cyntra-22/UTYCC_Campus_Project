@@ -1,0 +1,180 @@
+html{
+    scroll-behavior: smooth;
+    -moz-transition-timing-function: cubic-bezier(50%);
+}
+
+
+.titleImg{
+    width: 100%;
+}
+
+.titleText{
+    width: 60%;
+    text-align: center;
+    color: #0092cc;
+    font-size: 250%;
+    font-weight: bold;
+    margin: 10px auto 0px auto;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 3px solid #0092cc;
+}
+
+section{
+    width: 100%;
+    padding: 30px 0px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sectionButton{
+    margin: 0px auto;
+    margin-top: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionButton button{
+    font-size: 100%;
+    width: 150px;
+   padding: 15px 0px;
+   border-radius: 50px;
+   background-color: white;
+   color: #0092cc;
+   border: 3px solid #0092cc;
+}
+
+.sectionButton a:hover button{
+    background-color: #0092cc;
+    color: white;
+    border: 3px solid #0092cc;
+}
+
+
+
+.selectContainer h1{
+    font-size: 200%;
+    font-weight: bold;
+    width: 30%;
+    margin: 0px auto;
+    padding: 5px 0px;
+    text-align: center;
+    color: #0092cc;
+    border-bottom: 3px solid #0092cc;
+}
+
+.selectContainer{
+    width: 80%;
+    height: 700px;
+    margin: 0px auto;
+    padding: 10px;
+    border: 5px solid rgb(226, 226, 226);
+    border-radius: 50px;
+}
+
+.selectContainer1{
+    width: 80%;
+    height: 700px;
+    margin: 0px auto;
+    padding: 10px;
+    border: 5px solid rgb(226, 226, 226);
+    border-radius: 50px;
+}
+
+.sampleImg, .sampleImg1, .sampleImg2{
+    display: block;
+    position: absolute;
+    width: 500px;
+}
+
+.sampleImg{
+    top: 830px;
+    left: 750px;
+}
+
+.sampleImg1{
+    top: 1570px;
+    left: 750px;
+}
+
+.sampleImg2{
+    top: 2310px;
+    left: 750px;
+}
+.selectContainerCathegory{
+    width: 30%;
+    margin-left: 150px;
+    margin-top: 50px;
+    height: 60px;
+    display: flex;
+}
+
+.selectContainerCathegory h3{
+    font-size: 110%;
+    font-weight: bold;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    background-color: #0092cc;
+    border-radius: 20px;
+}
+
+.selectContainerCathegory ul{
+    width: 100%;
+    margin-left: 5px;
+    padding: 0px 0px 5px 0px;
+    overflow: auto;
+}
+
+.selectContainerCathegory li{
+    background-color: rgb(245, 245, 245);
+}
+
+.selectContainerCathegory a{
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 3px 0px 3px 5px;
+    text-decoration: none;
+
+}
+.selectContainerCathegory span{
+    display: none;
+}
+
+.selectContainerCathegory li:hover{
+    background-color: #0092cc;
+    color: white;
+}
+
+.selectContainerCathegory li:hover span{
+    display: block;
+    position: absolute;
+    width: 500px;
+    top: 830px;
+    left: 750px;
+}
+
+.hoverImg1 li:hover span{
+    display: block;
+    position: absolute;
+    width: 500px;
+    top: 1570px;
+    left: 750px;
+}
+
+.hoverImg2 li:hover span{
+    display: block;
+    position: absolute;
+    width: 500px;
+    top: 2310px;
+    left: 750px;
+}
+
+a, a:active, a:focus {
+    outline: none;
+ }
+
+ button, button:active, button:focus{
+     outline: none;
+ }

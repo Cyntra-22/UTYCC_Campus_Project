@@ -1,0 +1,223 @@
+html{
+	scroll-behavior: smooth;
+}
+
+.bioTitleImg{
+    background-image: linear-gradient(to left,rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url('../img/biott.jpg');
+    margin: 0px auto;
+    height: 850px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.bioTitle{
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 50px;
+    display: flex;
+}
+.bioLogo img{
+    width:200px;
+    margin-left: 120px;
+    margin-right: 40px;
+    padding: auto;
+}
+
+.bioLine img{
+    width: 10px;
+    margin: 20px 30px 0px 10px;
+}
+
+.bioTitle h1{
+    padding: 0px;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    font-size: 300%;
+    font-weight: bold;
+    color: white;
+}
+
+.bioText{
+    width: 80%;
+    display: flex;
+    padding: 10px;
+    margin: 50px auto 0px auto;
+}
+
+.bio-Mission{
+    width: 30%;
+}
+
+.bio-Mission p{
+    font-weight: bold;
+    font-size: 200%;
+    color: white;
+}
+
+.bio-brife{
+    width: 70%;
+}
+
+.bio-brife p{
+    text-indent: 100px;
+    color: white;
+    font-size: 110%;
+}
+
+.rector{
+    width: 80%;
+    margin: 100px auto;
+}
+
+.rector img{
+    margin: 0px auto;
+    width: 300px;
+    border-radius: 250px;
+    box-shadow: 0px 5px 15px #ddd;;
+}
+
+.rector h1{
+    width: 40%;
+    margin: 20px auto;
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+    color: #0092cc;
+    border-bottom: 3px solid #0092cc;
+}
+
+.rector p{
+    margin: 0px auto;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    color: #666;
+}
+
+.missionFlex{
+    width: 100%;
+    height: 350px;
+}
+
+.missiondiv{
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.missioncollum{
+    width: 50%;
+    padding: 50px;
+}
+
+.missioncollum h1{
+    width: 180px;
+    margin-bottom: 30px;
+    font-size: 300%;
+    color: #0092cc;
+    border-bottom: 3px solid #0092cc;
+}
+
+.missioncollum ul{
+    list-style-type: disc;
+    font-size: 120%;
+}
+
+
+.faculty{
+    z-index: 1;
+    width: 100%;
+    margin-top: 100px;
+    padding: 30px 20px 30px 20px;
+    background-color: rgb(250, 250, 250);
+}
+
+.faculty h1{
+    margin: 0px auto;
+    width: 20%;
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+    color: #0092cc;
+    border-bottom: 3px solid #0092cc;
+}
+
+.facultyLogoContainer{
+    width: 60%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.facultyLogo{
+    width: 150px;
+    height: 180px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.facultyLogo img{
+    width: 100px;
+    margin: 0px auto;
+}
+
+.facultyLogo p{
+    width: 100%;
+    text-align: center;
+    margin: 10px auto  0px auto;
+    color: rgb(77, 77, 77);
+    font-size: 95%;
+    line-height: 18px;
+}
+
+.facultyLogoContainer a{
+    text-decoration: none;
+}
+.facultyLogoContainer a:hover p{
+    color: #0092cc;
+}
+
+.facultyLogoContainer a:hover .facultyLogo{
+    background-color: white;
+    box-shadow: 0px 2px 20px rgb(228, 227, 227);
+}
+
+.degreeContainer{
+    background-image: linear-gradient(to right,rgba(11, 177, 253, 0.5),rgb(250,250,250,0.5)),url("../img/degreebg.jpg");
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    box-shadow: 0px -2px 10px rgb(204, 204, 204);
+}
+
+.degreeContainer h1{
+    width: 20%;
+    margin-bottom: 30px;
+    font-size: 200%;
+    font-weight: bold;
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+.degreeContainer h2{
+    font-size: 150%;
+    font-weight: bold;
+    color: white;
+}
+
+.degreeContainer ul{
+    list-style-type: disc;
+    padding-left: 50px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+a, a:active, a:focus {
+    outline: none;
+ }
+
+ button, button:active, button:focus{
+     outline: none;
+ }

@@ -1,0 +1,185 @@
+html{
+	scroll-behavior: smooth;
+}
+
+.title{
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(rgba(0, 62, 143, 0.5),rgba(0, 20, 58, 0.5)),url(../img/timetablett.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+}
+
+.title img{
+    width: 50%;
+    margin: 0px auto;
+    padding-top: 80px;
+}
+
+/* .titleButton{
+    width: 100%;
+    margin: 50px auto 0px auto;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.titleButton button{
+    width: 130px;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.titleButton a:hover button{
+    color: #0092cc;
+    background-color: white;
+} */
+
+/* ----------------------------------------------------------------title--------------------------------------------------------------- */
+
+
+.sectionFlex{
+    width:100%;
+    display: flex;
+    margin: 0px auto;
+}
+
+
+.section1{
+    width: 33.33%;
+    height: 500px;
+    background-color: white;}
+
+.section2{
+    width: 33.33%;
+    height: 500px;
+    background-image: linear-gradient(to right, #6dc0f2, #0092cc);
+    background-size: cover;
+}
+
+.section3{
+    width: 33.33%;
+    height: 500px;
+    background-color: white;}
+
+.section4{
+    width: 33.33%;
+    height: 500px;
+    background-size: cover;
+    background-image: linear-gradient(to right, #6dc0f2, #0092cc);
+}
+
+.section5{
+    width: 33.33%;
+    height: 500px;
+    background-color: white;}
+
+.section6{
+    width: 33.33%;
+    height: 500px;
+    background-size: cover;
+    background-image: linear-gradient(to right, #6dc0f2, #0092cc);
+}
+
+.section7{
+    width: 33.33%;
+    height: 500px;
+    background-size: cover;
+    background-image: linear-gradient(to right, #6dc0f2, #0092cc);
+}
+
+.section7 h1{
+    width: 200px;
+    font-size: 300%;
+    color: white;
+    font-weight: bold;
+    margin: 50px 0px;
+}
+
+.sectionme{
+    background-color: white;
+}
+
+
+/* ---------------------------------------------------------background-------------------------------------------------------------------- */
+
+.majorButton{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.majorButtonForWhite{
+    margin: 20px auto 0px auto;
+    width: 30%;
+    color: #0092cc;
+}
+
+.majorButtonForWhite img{
+    width: 200px;
+}
+
+.majorButtonForWhite a{
+    color: #0092cc;
+    font-weight: bold;
+}
+
+.majorButtonForWhite button{
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    font-weight: bold;
+    border: 3px solid #0092cc;
+    border-radius: 50px;
+}
+
+.majorButtonForBlue{
+    margin: 20px auto 0px auto;
+    width: 30%;
+    color: white;
+
+}
+
+.majorButtonForBlue img{
+    width: 200px;
+}
+
+.majorButtonForBlue button{
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    font-weight: bold;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.majorButtonForWhite button:hover{
+    background-color: #0092cc;
+    color: white;
+}
+
+.majorButtonForBlue button:hover{
+    background-color: white;
+    color: #0092cc;
+}
+
+.majorButtonForWhite button:hover button{
+    background-color: #0092cc;
+}
+
+.majorButtonForBlue button:hover button{
+    background-color: white;
+}
+
+a, a:active, a:focus {
+    outline: none;
+ }
+
+ button, button:active, button:focus{
+     outline: none;
+ }
+
+/* ----------------------------------------------------------------------majorbutton------------------------------------------------------------ */

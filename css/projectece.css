@@ -1,0 +1,106 @@
+html{
+	scroll-behavior: smooth;
+}
+
+.title{
+    width: 100%;
+    height: 400px;
+    background-color: #f5f5f5;
+    background-image: url("../graphic/projectece-tt-01.png");
+    background-size: cover;
+    display: flex;
+}
+
+.title img{
+    width: 400px;
+}
+
+.title h1{
+    margin: 50px;
+    height: 100%;
+    color: #666;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.title h1 span{
+    font-size: 150%;
+    color: #f78121;
+}
+
+.title h1 span span{
+    color: #666;
+    font-size: 100%;
+}
+
+.previousButton{
+    width: 150px;
+    height: 50px;
+    color: #f78121;
+    border: 3px solid #f78121;
+    border-radius: 25px;
+    float: right;
+    position: absolute;
+    right: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.previousButton:hover{
+    color: white;
+    background-color: #f78121;
+}
+
+
+.dataContainer{
+    width: 80%;
+    margin: 50px auto 0px auto;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    display: flex;
+}
+.dataContainer h1{
+    width: 18%;
+    color:  #f78121;
+    font-size: 360%;
+    font-weight: bold;
+}
+.data{
+    width: 82%;
+    border-left: 10px solid #eaeaea;
+    padding-left: 50px;
+}
+
+details{
+    padding-bottom: 10px;
+}
+
+details summary{
+    color: #666;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.detailsTitle{
+    font-size: 120%;
+    color: #f78121;
+}
+
+.detailsParagraph{
+    color: #666;
+    text-indent: 10px;
+    padding-left: 30px;
+}
+
+details ul{
+    list-style-type: disc;
+    padding-left: 30px;
+    color: #666;
+}
+
+a, a:active, a:focus {
+    outline: none;
+ }
+
+ button, button:active, button:focus{
+     outline: none;
+ }

@@ -1,0 +1,174 @@
+body,html{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+  }
+
+.navcontainer{
+    width: 100%;  }
+  
+/*for nav conatiner*/
+.fornav{
+    width: 80%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+   
+.has-sub-menu{
+    position: relative;
+  }
+
+.sub-menu-container{
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  }
+
+.has-sub-menu:hover .sub-menu-container{
+  display: block;
+  }
+
+.has-sub-menu:hover{
+  background-color: #0092cc;
+  }
+
+.name{
+  color: #0092cc;
+  font-weight: bold;
+  }
+
+.sub-menu{
+  width: 230px;
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: left;
+  }
+
+.sub-menu li{
+  padding-left: 5px; 
+  }
+  
+.bookimg{
+    height: 200px;
+    box-shadow: 10px 10px 5px grey;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+  }
+
+.hovernav:hover {
+  background-color: #0092cc;
+  }
+
+.navimg{
+  width: 20px;
+  }
+
+main { background-image:linear-gradient(to bottom, #ef3b36, #93291e) }
+
+/*Css properties for table*/
+table {
+        margin-top: 60px;
+        margin-bottom: 75px;
+        margin-left: auto;
+        margin-right: auto; 
+        border: 8px solid #eaeaea;  
+        width: 70%;
+      }
+
+table tr {
+          text-align: center; 
+          font-size: 1.3em;
+         }
+
+/*Eliminate border style of table rows and columns and set the font family*/
+td, th {
+        border-style: none; 
+        padding: 0.5em; 
+        font-family: Verdana, sans-serif;
+        }
+
+/*Add css properties to the text between h2 tag*/
+main h2 { margin-left: 2em;
+          font-family: Verdana, sans-serif; 
+          font-weight: bold; 
+          font-size: 300%; 
+          color: white;
+        }
+
+/*Add font-color and background-color of every even row of table*/
+table tr:nth-of-type(even) {color: #000000; background-color:white;}
+
+/*Add font-color and background-color of every odd row of table*/
+table tr:nth-of-type(odd) {background-color: #eaeaea;}
+
+/*Css Properties for Footer*/
+.footer{
+  width: 100%;
+  
+  background-image: linear-gradient(to bottom,rgb(204, 205, 206), rgb(201, 203, 204));
+  color: black;
+  opacity: 0.8;
+}
+.footer p{
+ 
+  font-size: 17px;
+  
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+  
+}
+
+.footer-1-sec{
+  width: 50%;
+  text-align: left;
+  
+  
+}
+.footer-2-sec{
+  width:50%;
+  text-align: right;
+
+   
+}
+.footer-2-sec img{
+ 
+  margin-top: 30px;
+  margin-bottom: 15px;
+text-align: right;
+
+
+}
+.footer-3-sec{
+  width: 60%;
+  
+  text-align: center;
+ 
+  font-size: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  font-style: italic;
+  padding-bottom: 10px;
+  color:black;
+  border-bottom: 2px solid;
+  margin: 0 auto;
+  border-bottom: 2px solid;
+  padding-top: 10px;
+}
+.Suggest-button{
+  margin-top: 30px;
+  border: 2px solid ;
+   border-radius: 10px;
+   
+}
+
+a, a:active, a:focus {
+  outline: none;
+}
+
+button, button:active, button:focus{
+   outline: none;
+}
+
+

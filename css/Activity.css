@@ -1,0 +1,275 @@
+@media(min-width: 680px){
+
+/*navigation bar*/
+html{
+  scroll-behavior: smooth;
+}
+
+.navcontainer{
+  width: 100%;
+}
+/*for nav conatiner*/
+.fornav{
+  width: 80%;
+ 
+}
+ .has-sub-menu{
+  position: relative;
+}
+.sub-menu-container{
+display: none;
+position: absolute;
+background-color: transparent;
+z-index: 20;
+
+}
+.has-sub-menu:hover .sub-menu-container{
+display: block;
+
+}
+.has-sub-menu:hover{
+background-color: #0092cc;
+
+}
+.name{
+color: #0092cc;
+font-weight: bold;
+}
+.sub-menu{
+width: 230px;
+border-radius: 10px;
+margin-top: 10px;
+text-align: left;
+
+}
+
+.sub-menu li{
+padding-left: 5px; 
+}
+
+
+.hovernav:hover {
+background-color: #0092cc;
+}
+.navimg{
+width: 20px;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0px;
+   }
+   
+   slider {
+    display: block;
+    width: 100%;
+    height: 93vh;
+    background-color: #1f1f1f;
+    overflow: hidden;
+    position: absolute;
+   }
+   
+   slider > * {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #1f1f1f;
+    animation: slide 12s infinite;
+    overflow: hidden;
+   }
+   
+   slide:nth-child(1){
+    left: 0%;
+    animation-delay: -1s;
+    background-image:  url("../pic/thingyan3.jpg");
+    background-size: cover;
+    background-position: center;
+    
+   
+   }
+   
+   slide:nth-child(2){
+    animation-delay: 2s;
+    background-image: url("../pic/IMG_0750.jpg");
+    background-size: cover;
+    background-position: center;
+    
+   }
+   
+   slide:nth-child(3){
+    animation-delay: 5s;
+    background-image: url("../pic/IMG_1789-49.jpg");
+    background-size: cover;
+    background-position: center;
+    
+   }
+   
+   slide:nth-child(4){
+    left: 0%;
+    animation-delay: 8s;
+    background-image: url("../pic/ycc.jpg");
+    background-size: cover;
+    background-position: center;
+    
+   }
+   
+   slide p {
+    font-family: Comfortaa;
+    font-size: 70px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: 340px;
+    color: #fff;
+   }
+   
+   @keyframes slide {
+    0% { left: 100%; width: 100%; }
+    5% { left: 0%; }
+    25% { left: 0%; }
+    30% { left: -100%; width: 100%; }
+    30.0001% { left: -100%; width: 0%; }
+    100% { left: 100%; width: 0%; }
+   }
+   .flat{
+     display: flex;
+     background-color: red;
+   }
+   .bottle{
+     width:55%;
+   }
+   .bottle1{
+     width: 45%;
+   }
+
+   .Activity-Title{
+       font-size: 50px;
+       font-style: italic;
+       font-family: 'Pacifico', cursive;
+       color: #0092cc;
+   }
+   .Activity-Content{
+     font-size: 23px;
+     
+   }
+   .image1{
+    width: 300px;
+    height: 200px;
+     border: 2px solid #0092cc;
+     padding: 10px;
+     z-index: 5;
+     position: relative;
+   }
+   .image2{
+    width: 300px;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: -120px;
+    border: 2px solid #0092cc;
+    padding: 10px;
+    z-index: 10;
+    position: relative;
+   }
+   .image3{
+    width: 300px;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: -250px;
+    border: 2px solid #0092cc;
+    padding: 10px;
+    z-index: 20;
+    position: relative;
+   }
+   .button-design{
+       border: 2px solid white;
+       color: white;
+     margin-left: 45%;
+     padding: 5px;
+     font-size: 20px;
+   }
+   .button-design:hover{
+     background-color: #0092cc;
+     color: black;
+     border: 2px solid #0092cc;
+   }
+   
+  /*footer*/
+  .footer{
+    width: 100%;
+    
+    background-image: linear-gradient(to bottom,rgb(204, 205, 206), rgb(201, 203, 204));
+    color: black;
+    opacity: 0.8;
+    /*background-image: linear-gradient(to right,#6dc0f2 , #0092cc);*/
+    
+  }
+  .footer p{
+   
+    font-size: 17px;
+    
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    
+  }
+  
+  .footer-1-sec{
+    width: 50%;
+    text-align: left;
+    
+    
+  }
+  .footer-2-sec{
+    width:50%;
+    text-align: right;
+  
+     
+  }
+  .footer-2-sec img{
+   
+    margin-top: 30px;
+    margin-bottom: 15px;
+  text-align: right;
+  
+  
+  }
+  .footer-3-sec{
+    width: 60%;
+    
+    text-align: center;
+   
+    font-size: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    font-style: italic;
+    padding-bottom: 10px;
+    color:black;
+    border-bottom: 2px solid;
+    margin: 0 auto;
+    border-bottom: 2px solid;
+    padding-top: 10px;
+  }
+  .Suggest-button{
+    margin-top: 30px;
+    border: 2px solid ;
+     border-radius: 10px;
+     
+  }
+
+
+  a, a:active, a:focus {
+    outline: none;
+ }
+
+ button, button:active, button:focus{
+     outline: none;
+ }
+}
+
+
+@media(min-width: 400px) and (max-width: 680px){
+  
+}

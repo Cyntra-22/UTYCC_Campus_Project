@@ -1,0 +1,311 @@
+@media (min-width:680px){
+html{
+    scroll-behavior: smooth;
+}
+.texttitle{
+    font-size: 48px; 
+    color: #0092cc; 
+    width: 300px; 
+    border-bottom: 5px solid #0092cc;
+    text-align: center; 
+    margin: auto; 
+    margin-top: 50px; 
+    margin-bottom: 10px;
+}
+.allimg1{
+    width: 100%;
+}
+.paragraph{
+    width: 80%; 
+    font-size: 150%; 
+    color: #666; 
+    text-align: center; 
+    margin: auto; 
+    line-height: 30px;
+}
+.showlaptop{
+    display: block;
+}
+.showphone{
+    display: none;
+}
+.showlaptop1{
+    display: block;
+}
+.showphone1{
+    display: none;
+}
+.showlaptop2{
+    display: block;
+}
+.showphone2{
+    display: none;
+}
+.showlaptop3{
+    display: block;
+}
+.showphone3{
+    display: none;
+}
+
+
+.body{
+    width: 80%;
+    margin: 0px auto;
+
+}
+.body1{
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}
+.color{
+    color: #0092cc;
+}
+.table{
+    width: 80%;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+a, a:active, a:focus {
+    outline: none;
+ }
+
+ button, button:active, button:focus{
+     outline: none;
+ }
+
+/* ----------------new------------------ */
+
+.FlexDiv{
+    justify-content: space-between;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin: auto;
+    padding-right: 400px;
+    padding-left: 100px;
+
+}
+
+.FlexDivLeft{
+    text-align: right;
+    justify-content: space-between;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin: auto;
+    padding-left: 400px;
+    padding-right: 100px;
+}
+
+.FlexDivData img{
+    width: 300px;
+    border-radius: 50px;
+    box-shadow: 0px 5px 20px #aaa;
+    border: 3px solid white;
+}
+
+.Text{
+    padding: 20px;
+    width: 500px;
+   
+}
+
+.Text h1{
+    margin-top: 60px;
+    font-size: 200%;
+    font-weight: bold;
+    color: #0092cc;
+}
+
+.Text ul li{
+    line-height: 30px;
+    font-size: 120%;
+}
+
+.underline{
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding: 10px solid;
+    width: 150px;
+    height: 5px;
+    background-color: #0092cc;
+}
+
+.underlineR{
+    margin-bottom: 15px;
+    margin-left: 255px;
+    padding: 10px solid;
+    width: 150px;
+    height: 5px;
+    background-color: #0092cc;
+}
+}
+
+@media(max-width:400px){
+    .body{
+        width: 100%;
+    }
+    .allimg{
+        width: 100%;
+        object-fit: cover;
+    }
+    .texttitle{
+    font-size: 30px; 
+    color: #0092cc; 
+    width: 150px; 
+    border-bottom: 5px solid #0092cc;
+    text-align: center; 
+    margin: auto; 
+    margin-top: 18px; 
+    margin-bottom: 10px;
+    }
+    .paragraph{
+        width: 100%; 
+        font-size: 14px; 
+        color: #666;  
+        line-height: 15px;
+    }
+    .FlexDivData img{
+        width: 150px;
+        border-radius: 50px;
+        box-shadow: 0px 5px 20px #aaa;
+        border: 3px solid white;
+        text-align: center; 
+        margin: auto; 
+    }
+    .Text{
+        margin-left: 20px;
+       
+    }
+    
+    .Text h1{
+        margin-top: 20px;
+        font-size: 24px;
+        color: #0092cc;
+    }
+    
+    .Text ul li{
+        line-height: 24px;
+        font-size: 14px;
+    }
+    
+    .underline{
+        margin-bottom: 7px;
+        margin-top: 7px;
+        padding: 5x solid;
+        width: 150px;
+        height: 3px;
+        background-color: #0092cc;
+    }
+    .showphone{
+        display: block;
+    }
+    .showlaptop{
+        display: none;
+    }
+    .showphone1{
+        display: block;
+    }
+    .showlaptop1{
+        display:none;
+    }
+    .showphone2{
+        display: block;
+    }
+    .showlaptop2{
+        display:none;
+    }
+    .showphone3{
+        display: block;
+    }
+    .showlaptop3{
+        display:none;
+    }
+    .navcontainer{
+        display: none;
+    }
+}
+
+@media(min-width:400px) and (max-width:680px){
+    
+    .texttitle{
+        font-size: 40px; 
+        color: #0092cc; 
+        width: 230px; 
+        border-bottom: 5px solid #0092cc;
+        text-align: center; 
+        margin: auto; 
+        margin-top: 20px; 
+        margin-bottom: 10px;
+    }
+    .paragraph{
+        width: 100%; 
+        font-size: 17px; 
+        color: #666;  
+        line-height: 18px;
+    }
+    .FlexDivData img{
+        width: 200px;
+        border-radius: 50px;
+        box-shadow: 0px 5px 20px #aaa;
+        border: 3px solid white;
+        text-align: center; 
+        margin: auto; 
+    }
+    .Text{
+        margin-left: 150px;
+    }
+    
+    .Text h1{
+        margin-top: 20px;
+        font-size: 18px;
+        color: #0092cc;
+        font-weight: bold;
+    }
+    
+    .Text ul li{
+        line-height: 24px;
+        font-size: 15px;
+    }
+    
+    .underline{
+        margin-bottom: 7px;
+        margin-top: 7px;
+        padding: 5x solid;
+        width: 150px;
+        height: 3px;
+        background-color: #0092cc;
+    }
+    .showphone{
+        display: block;
+    }
+    .showlaptop{
+        display: none;
+    }
+    .showphone1{
+        display: block;
+    }
+    .showlaptop1{
+        display:none;
+    }
+    .showphone2{
+        display: block;
+    }
+    .showlaptop2{
+        display:none;
+    }
+    .showphone3{
+        display: block;
+    }
+    .showlaptop3{
+        display:none;
+    }
+    .navcontainer{
+        display: none;
+    }
+    
+
+}

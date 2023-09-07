@@ -1,0 +1,185 @@
+html{
+	scroll-behavior: smooth;
+}
+
+.title{
+  width: 100%;
+  height: 250px;
+  background-image: linear-gradient(rgba(0, 62, 143, 0.5),rgba(0, 20, 58, 0.5)), url("../img/hosteltt_back.jpg");
+  background-size: cover;
+}
+
+.title img{
+  width: 30%;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.navcontainer{
+    width: 100%;
+    background-color: white;  }
+  /*for nav conatiner*/
+  .fornav{
+    width: 80%;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+  }
+   .has-sub-menu{
+    position: relative;
+}
+.sub-menu-container{
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  
+}
+.has-sub-menu:hover .sub-menu-container{
+  display: block;
+  
+}
+.has-sub-menu:hover{
+  background-color: #0092cc;
+
+}
+.name{
+  color: #0092cc;
+  font-weight: bold;
+}
+.sub-menu{
+  width: 230px;
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: left;
+
+}
+
+.sub-menu li{
+  padding-left: 5px; 
+}
+  
+ 
+.bookimg{
+    height: 200px;
+    box-shadow: 10px 10px 5px grey;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    
+}
+.hovernav:hover {
+  background-color: #0092cc;
+}
+.navimg{
+  width: 20px;
+}
+main{
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+h1{
+  text-align: center;
+}
+#witheight{
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+}
+#divwith{
+  width: 250px;
+  border: 2px ridge black;
+  border-radius: 20px;
+  border-radius: 5px 5px 5px #0092cc;
+}
+#divwith p{
+  font-weight: bold;
+  margin-left: 10px;
+  color: black;
+}
+#flex{
+  display: flex;
+}
+#divmarginleft{
+  margin-left: 115px;
+}
+#witheight:hover{
+  -webkit-transform: scale(1.05);
+}
+.hero-image {
+  
+  height: 50%;
+  background-position: fill;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+   text-align: center; 
+   font-size: 130%;
+   color: #666;
+   font-weight: bold;
+   line-height: 30px;
+}
+#button{
+  width: 140px;
+  margin-left: 580px;
+  border: 1px ridge;
+  border-radius: 10px;
+  height: 40px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 5px 5px 5px #eaeaea;
+}
+#button1{
+  width: 140px;
+  margin-left: 100px;
+  border: 1px ridge;
+  border-radius: 10px;
+  height: 40px;
+  background-color: #6DC0F2;
+  text-align: center;
+  box-shadow: 5px 5px 5px #eaeaea;
+}
+#button:hover{
+  background-color: #6DC0F2;
+}
+#button1:hover{
+  background-color: #6DC0F2;
+}
+#flex1{
+  display: flex; 
+}
+#divwith1{
+  width: 250px;
+  border: 2px ridge black;
+  border-radius: 20px;
+  border-radius: 5px 5px 5px #0092cc;
+  margin-left: 160px;
+}
+#divwith1 p{
+  font-weight: bold;
+  margin-left: 10px;
+  color: black;
+}
+#divwith2{
+  width: 250px;
+  border: 2px ridge black;
+  border-radius: 20px;
+  border-radius: 5px 5px 5px #0092cc;
+  margin-left: 100px;
+}
+#divwith2 p{
+  font-weight: bold;
+  margin-left: 10px;
+  color: black;
+}
+
+a, a:active, a:focus {
+  outline: none;
+}
+
+button, button:active, button:focus{
+   outline: none;
+}

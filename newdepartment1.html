@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Departments</title>
+    <link rel="stylesheet" href="css/tailwind.min.css">
+    <link rel="stylesheet" href="css/book1.css">
+    <link rel="stylesheet" href="css/department.css">
+    <link rel="stylesheet" href="css/img.css">
+    <link rel="stylesheet" href="css/backtotop.css">
+    <script>
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+              } else {
+                document.getElementById("myBtn").style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+    
+    <style>
+    fieldset{
+        width: 50%;
+        border: 2px ridge #0092cc;
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+
+.footer{
+  width: 100%;
+  
+  background-image: linear-gradient(to bottom,rgb(204, 205, 206), rgb(201, 203, 204));
+  color: black;
+  opacity: 0.8;
+  /*background-image: linear-gradient(to right,#6dc0f2 , #0092cc);*/
+  
+}
+.footer p{
+ 
+  font-size: 17px;
+  
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+  
+}
+
+.footer-1-sec{
+  width: 50%;
+  text-align: left;
+  
+  
+}
+.footer-2-sec{
+  width:50%;
+  text-align: right;
+
+   
+}
+.footer-2-sec img{
+ 
+  margin-top: 30px;
+  margin-bottom: 15px;
+text-align: right;
+
+
+}
+.footer-3-sec{
+  width: 60%;
+  
+  text-align: center;
+ 
+  font-size: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  font-style: italic;
+  padding-bottom: 10px;
+  color:black;
+  border-bottom: 2px solid;
+  margin: 0 auto;
+  border-bottom: 2px solid;
+  padding-top: 10px;
+}
+.Suggest-button{
+  margin-top: 30px;
+  
+  border: 2px solid ;
+   border-radius: 10px;
+   
+}
+    
+        </style>
+</head>
+<body >
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="img/backtotop-01.png" style="width:30px"></button>
+        <div class="navcontainer">
+                
+                <div class="fornav flex mx-auto justify-between items-center border-b-2 ">
+                    <div class=" font-semibold " style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"><h1><span class="text-blue-700 m-0 text-4xl italic ">UTYCC</span> <span class="text-3xl " style="color:#666;">CAMPUS</span></h1>
+                    </div>
+                    <div class=" text-xl">
+                        <nav>
+                            <ul class="flex justify-between inline-block">
+                                <a href="index.html"><button class="px-4 py-2 rounded-full hovernav">Home</button></a>
+                                <a href="bio.html"><button class="px-4 py-2 rounded-full hovernav">Bio</button></a>
+                                <button class="has-sub-menu px-4 py-2 rounded-full "style="background-color: #0092cc;"> <span class="flex justify-between items-center" style="color: white;">Campus<img class="navimg pl-2 pt-2" src="img/downarrow.png" alt=""></span>
+        
+                                    <div class="sub-menu-container">
+                                        <ul class="sub-menu bg-gray-200 ">
+                                            <a href="fresher.html"><li class="hovernav pb-2 border-b-2">Fresher</li></a>
+                                            <a href="newspage1.html"><li class="hovernav pb-2 border-b-2">News</li></a>
+                                            <a href="courses.html"><li class="pb-2 hovernav  border-b-2">Courses</li></a>
+                                            <a href="canteen.html"><li class="pb-2 hovernav border-b-2">Canteen</li></a>
+                                            <a href="newdepartment.html"><li class="pb-2 hovernav border-b-2">Faculties & Departments</li></a>
+                                            <a href="book/bookindex.html"><li class="pb-2 hovernav border-b-2">Curriculum</li></a>
+                                            <a href="map.html"><li class="pb-2 hovernav border-b-2">Map</li></a>
+                                            <a href="timetable.html"><li class="pb-2 hovernav border-b-2">Timetables</li></a>
+                                            <a href="project.html"><li class="pb-2 hovernav border-b-2">Projects</li></a>
+                                            <a href="Activity.html"><li class="pb-2 hovernav  ">Activities</li></a> 
+                                        </ul>
+                                    </div>
+        
+                                </button>
+                                <button class=" has-sub-menu px-4 py-2 rounded-full hovernav"><span class="flex justify-between items-center">Organization<img class="navimg pl-2 pt-2" src="img/downarrow.png" alt=""></span>
+        
+                                    <div class="sub-menu-container">
+                                        <ul class="sub-menu bg-gray-200 ">
+                                            <a href="redcross/rc1.html"><li class="hovernav pb-2 border-b-2">Redcross</li></a>
+                                            <a href="yccsu.html"><li class="pb-2 hovernav  border-b-2">Students' Union</li></a>
+                                            <a href="club1.html"><li class="pb-2 hovernav border-b-2">Clubs</li></a>
+                                            <a href="family.html"><li class="pb-2 hovernav border-b-2">Families</li></a>
+                                            <a href="marchingband.html"><li class="pb-2 hovernav ">Drum & Bugle Corps</li></a>
+                                        </ul>
+                                    </div>
+        
+                                </button>
+                                <button class="px-4 py-2 rounded-full hovernav has-sub-menu"><span class="flex justify-between items-center">Explore<img class="navimg pl-2 pt-2" src="img/downarrow.png" alt=""></span>
+        
+                                    <div class="sub-menu-container">
+                                        <ul class="sub-menu bg-gray-200 ">
+                                            <a href="hostel.html"><li class="hovernav pb-2 border-b-2">Hostels</li></a>
+                                            <a href="emergency_contact.html"><li class="pb-2 hovernav  border-b-2">Emergency Contact</li></a>
+                                            <a href="clinic1.html"><li class="pb-2 hovernav border-b-2">Pharmacies & Clinic</li></a>
+                                            <a href="shop&restaurant.html"><li class="pb-2 hovernav">Shops and Restaurants</li></a>
+                                                        
+                                        </ul>
+                                    </div>
+        
+                                </button>
+                                <a href="newaboutus.html"><button class="px-4 py-2 rounded-full hovernav">About Us</button></a>
+                                        
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+    <div>
+       <div class="hero w-full">
+             
+       </div>
+       <div class="body1">
+            <div class="flex justify-between">
+                <a href="newict.html"><img src="img/ictb.png" width="200px" class="zoom bg-white border border-blue-800  margin1 rounded-lg" ></a>
+                <a href="ece.html"><img src="img/eceb-01.png" width="200px" class="zoom bg-white border border-blue-800  margin1 rounded-lg" ></a>
+                <a href="pre.html"><img src="img/preb.png" width="200px" class="zoom bg-white border border-blue-800  margin1 rounded-lg"></a>
+                <a href="ame.html"><img src="img/ameb-01.png" width="200px" class="zoom bg-white border border-blue-800  margin1 rounded-lg"></a>
+            </div>
+      </div>
+    </div>
+    <div><h1 class="namehead lg:tracking-wider text-blue-900 text-center lg:text-5xl lg:mt-6 font-bold">Faculties & Departments</h1></div>
+    <h2 class="color namesecond text-center lg:mt-8 mt-4 text-xl lg:text-4xl font-bold">Departments</h2>
+    <div class="body1 lg:flex lg:justify-between mt-4">
+                <fieldset class="lg:mr-6  w-full">
+                        <legend class="namethird lg:text-2xl text-lg font-bold text-blue-700">Department of Myanmar</legend>
+                        <label class="namefourth lg:text-xl text-lg text-blue-700 font-bold">Teacher Lists</label>
+                        <label >
+                            <ol  class="namefifth pl-6 pt-4 lg:text-lg text-sm lg:tracking-wider">
+                                    <li>1. Dr Htun Lin Kyaw</li>
+                                    <li>2. Dr Mu Yar</li>
+                                    <li>3. Daw Lai Lai Ngwe</li>
+                                    
+                            </ol>
+                        </label>
+                    </fieldset>
+    
+                <fieldset class="w-full">
+                        <legend class="namethird lg:text-2xl text-lg font-bold text-blue-700">Department of English</legend>
+                        <label class="namefourth lg:text-xl text-lg text-blue-700 font-bold">Teacher Lists</label>
+                        <label >
+                            <ul class="namefifth pl-6 pt-4 lg:text-lg text-sm lg:tracking-wider">
+                                    <li>1. Daw Khin Aye Mu</li>
+                                    <li>2. Daw Ei Kay Khaing</li>
+                                    <li>3. Daw May Zin Aye</li>
+                                    <li>4. Daw Hnin Nu Wai</li>
+                                    <li>5. Daw Ye Ye Aung</li>
+                                    
+                            </ul>
+                        </label>
+                    </fieldset>
+        
+    </div>
+    <div class="body1 lg:flex mt-4 lg:justify-between">
+            <fieldset class="lg:mr-6  w-full">
+                    <legend class="namethird lg:text-2xl text-lg font-bold text-blue-700">Department of Maths</legend>
+                    <label class="namefourth lg:text-xl  text-lg text-blue-700 font-bold">Teacher Lists</label>
+                    <label >
+                        <ul class="namefifth pl-6 pt-4 lg:text-lg text-sm lg:tracking-wider">
+                                <li >1. Dr Tin Hswe Aye</li>
+                                <li >2. Dr Ye Ye Win</li>
+                                <li >3. Dr Khin San Wai</li>
+                                <li >4. Dr Soe Soe Thin</li>
+                                <li >5. Dr Yuzana Min Hlai</li>
+                                <li >6. Dr Aye Aye Soe</li>
+                                <li >7. Daw Aye Aye Thin</li>
+                                <li >8. Daw Ngwe Ni Aung</li>
+                                <li >9. Daw Zin Mar Soe</li>
+                                <li >10.Daw Zin Mar Myint</li>
+
+                                
+                        </ul>
+                    </label>
+                </fieldset>
+
+            <fieldset class="w-full">
+                    <legend class="namethird lg:text-2xl text-lg font-bold text-blue-700">Department of Physics</legend>
+                    <label class="namefourth lg:text-xl text-lg text-blue-700 font-bold">Teacher Lists</label>
+                    <label >
+                        <ul class="namefifth pl-6 pt-4 lg:text-lg text-sm lg:tracking-wider">
+                                <li>1. Dr Su Su Thane</li>
+                                <li>2. Dr Nilar Myint </li>
+                                <li>3. Dr Ye Ye Naing</li>
+                                <li>4. Daw Aye Mar Khin</li>
+                                <li>5. Daw Aye Myint Thwe</li>
+                                <li>6. Daw Hsu That Phyu</li>
+
+                                
+                        </ul>
+                    </label>
+                </fieldset>
+    
+    </div>
+    <div class="body1 mt-4">
+                <fieldset class="w-full">
+                    <legend class="namethirdlg:text-2xl text-lg  font-bold text-blue-700">Department of Chemistry</legend>
+                    <label class="namefourth lg:text-xl  text-lg text-blue-700 font-bold">Teacher Lists</label>
+                    <label >
+                        <ul class="namefifth pl-6 pt-4 lg:text-lg text-sm lg:tracking-wider">
+                                <li>1. Dr Khin Moe Thane</li>
+                                <li>2. Dr Myo Thidar Chit</li>
+                                <li>3. Dr Chaw Theingi Khin</li>
+                                <li>4. Daw Chaw Su Hlaing</li>
+                                <li>5. Daw Mu Mu Win</li>
+                                <li>6. Daw Htwe Thandar Htun</li>
+                                
+                                
+                        </ul>
+                    </label>
+                </fieldset>
+    </div>
+
+    <footer class="footer mt-10">
+            <section style="width: 80% ; margin-left:auto; margin-right:auto;">
+                <div class="footer-3-sec">
+                        <p style="font-size: 20px;">&#10077; Shape and Bright your Future at  UTYCC &#10078;</p>
+                </div>
+            <div style="display: flex; padding-top: 20px;">
+            <div class="footer-1-sec" >
+        <p style="font-size: 30px;">Contact Us</p>
+            <br>
+            <p>&#10004; 09779441303, 09693157860, 09400103949</p>
+            <br>
+            <p>&#10004; saimyintmohtutlyc@gmail.com</p>
+            <br>
+            <p>&#10004; 28 miles on Mandalay–Lashio road, between Pyin Sar  Village & Thone Taung Village, Pyin Oo Lwin, Myanmar.</p>
+            <br>
+            <br>
+        </div>
+        
+        <div class="footer-2-sec">
+            <p style="font-size: 30px;">Get Social With Us </p>
+            <div >
+               <div style="margin-left: 360px; width:40% ;justify-content: space-between; display: flex; ">
+                    <a href="#"><img src="img/facebook.png" href="" width="40" height="40"></a>
+                    <a href="#"><img src="img/instagram(1).png" href="" width="40" height="40"></a>
+                    <a href="#"><img src="img/twitter.png" href="" width="40" height="40"></a>
+                    <a href="#"><img src="img/google.png" href="" width="40" height="40"></a>
+               </div>
+            </div>
+            
+            <a href="suggest.html"><button class="button1 px-4 py-2 text-lg Suggest-button">Suggest Us</button></a>
+            <br>
+            <br>
+        </div>
+        </div>
+        </section>
+        
+     </footer>
+            
+    
+            
+</body>
+</html>

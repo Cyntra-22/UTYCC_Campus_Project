@@ -1,0 +1,83 @@
+html{
+	scroll-behavior: smooth;
+}
+
+
+
+.title{
+	width: 100%;
+	height: 250px;
+	background-image: linear-gradient(rgba(0, 62, 143, 0.5),rgba(0, 20, 58, 0.5)), url("../img/curriculumtt_back.jpg");
+	background-size: cover;
+  }
+  
+  .title img{
+	width: 40%;
+	margin: auto;
+	padding-top: 70px;
+  }
+
+
+#img{
+		width: 200px;
+	    height: 200px;
+}
+#row{
+	display: flex;
+	padding: 0px 50px;
+	justify-content: space-between;
+	margin: auto;
+}
+#data{
+	padding: 20px;
+	border: 2px ridge black;
+	border-radius: 15px;
+}
+#wapper{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+#wapper1{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#font{
+	text-align: center;
+	font-size: 30px;
+}
+#hovershake :hover{
+	-webkit-transform: scale(1.05);
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+p{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+a, a:active, a:focus {
+    outline: none;
+ }
+
+ button, button:active, button:focus{
+     outline: none;
+ }
+
+
+

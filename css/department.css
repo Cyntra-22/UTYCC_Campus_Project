@@ -1,0 +1,123 @@
+@media(min-width:680px){
+html{
+	scroll-behavior: smooth;
+}
+
+
+.hero{
+    background-image: url("../img/uni3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 0px;
+    opacity: 1;
+    background-size: cover;
+    height: 500px;
+    border-bottom: 4px solid #0092cc;
+}
+.body1{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.margin1{
+    margin: auto;
+    margin-top: -100px;
+}
+.color{
+    color: #0f688b;
+}
+
+a, a:active, a:focus {
+    outline: none;
+ }
+
+ button, button:active, button:focus{
+     outline: none;
+ }
+.zoom{
+    transition: transform .2s;
+}
+.zoom:hover{
+    transform: scale(1.2);
+}
+}
+@media(max-width: 400px){
+    .hero{
+        background-image: url("../img/uni3.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        left: 0px;
+        opacity: 1;
+        background-size: cover;
+        height: 200px;
+        border-bottom: 4px solid #0092cc;
+        
+    }
+    .navcontainer{
+        display: none;
+    }
+    .body1{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .margin1{
+        margin: auto;
+        margin-top: -30px;
+    }
+    .namehead{
+        font-size: 25px;
+        margin-top: 8px;
+    }
+    .color{
+        color: #0f688b;
+    }
+}
+@media(min-width: 400px) and (max-width: 680px){
+    .navcontainer{
+        display: none;
+    }
+    .hero{
+        background-image: url("../img/uni3.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        left: 0px;
+        opacity: 1;
+        background-size: cover;
+        height: 360px;
+        border-bottom: 4px solid #0092cc;
+        
+    }
+    .navcontainer{
+        display: none;
+    }
+    .body1{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .margin1{
+        margin: auto;
+        margin-top: -65px;
+    }
+    .namehead{
+        font-size: 30px;
+        margin-top: 18px;
+    }
+    .color{
+        color: #0f688b;
+    }
+    .namesecond{
+        font-size: 26px;
+    }
+    .namethird{
+        font-size: 22px;
+    }
+    .namefourth{
+        font-size: 20px;
+    }
+    .namefifth{
+        font-size: 16px;
+    }
+    
+}

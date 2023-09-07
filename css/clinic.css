@@ -1,0 +1,53 @@
+html{
+	scroll-behavior: smooth;
+}
+
+
+.title{
+	width: 100%;
+	height: 250px;
+	background-image: linear-gradient(rgba(0, 62, 143, 0.5),rgba(0, 20, 58, 0.5)),url("../img/clinic_back.jpg");
+	background-size: cover;
+}
+
+.title img{
+	width: 30%;
+	margin: auto;
+	padding-top: 70px;
+}
+
+#wapper{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+#rowdata{
+	display: flex;
+	align-items: center;
+
+}
+fieldset{
+	border: 3px ridge black;
+	border-radius: 50px;
+	width: 80%;
+}
+legend{
+	margin-left: 200px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+	table {
+	margin-left: 40px;
+		font-size: 20px;
+	line-height: 40px;
+}
+
+
+a, a:active, a:focus {
+    outline: none;
+ }
+
+ button, button:active, button:focus{
+     outline: none;
+ }

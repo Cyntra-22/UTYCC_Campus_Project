@@ -1,0 +1,126 @@
+html{
+	scroll-behavior: smooth;
+}
+
+.title{
+	width: 100%;
+	height: 250px;
+	background-image: linear-gradient(rgba(0, 62, 143, 0.5),rgba(0, 20, 58, 0.7)), url("../img/cl/d&ctt_back1.JPG");
+	background-size: cover;
+}
+
+.title img{
+	width: 60%;
+	margin: auto;
+	padding-top: 70px;
+}
+
+#Caption{
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 50px;
+	margin-bottom: -40px;
+	font-weight: bold;
+	text-align: center;
+
+	
+
+}
+#wapper{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+
+}
+#gif{
+	margin: auto;
+	margin-top:  -20px;
+}
+#gif1{
+	margin: auto;
+	margin-top:  -20px;
+	width: 600px;
+	height: 300px;
+}
+/* #borderbox{
+	border-radius: 15px;
+	border: 1px ridge;
+
+
+} */
+#img{
+	width: 300px;
+	height: 200px;
+	margin: auto;
+	border-radius: 10px;
+
+
+}
+#row{
+	margin: auto;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+
+#row img{
+	box-shadow: 0px 5px 10px rgb(202, 202, 202);
+	border: 2px solid #666;
+}
+/* main{
+	background-color: #eaeaea;
+} */
+/* #boxbackcolor{
+	background-color: #cccaca;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+} */
+#p{
+	margin-left: 20px;
+	color: white;
+}
+#pwapper{
+	padding: 10px 300px 10px 300px;
+	width: 100%;
+	height: 500px;
+	background-image: linear-gradient(rgba(0, 62, 143, 0.5),rgba(0, 20, 58, 0.7)),url("../img/cl/d&ctt_back2.JPG");
+	background-size: cover;
+	line-height: 30px;
+	font-size: 120%;
+}
+
+.cheerleaderTitle h1{
+	width: 500px;
+	margin-top: 30px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: #0092cc;
+	font-size: 300%;
+	font-weight: bold;
+	border-bottom: 3px solid #0092cc;
+	margin: auto;
+}
+
+.cheerleader{
+	width: 100%;
+	height: 500px;
+	padding: 10px 300px 10px 300px;
+	background-image: linear-gradient(rgba(0, 62, 143, 0.5),rgba(0, 20, 58, 0.5)),url("../img/cl_back.jpg");
+	background-size: cover;
+}
+.cheerleader p{
+	padding-top: 200px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 120%;
+	color: white;
+}
+a, a:active, a:focus {
+    outline: none;
+ }
+
+ button, button:active, button:focus{
+     outline: none;
+ }
+

@@ -1,0 +1,70 @@
+
+html{
+	scroll-behavior: smooth;
+}
+
+/* Start Popular Courses Area
+=========================================================================================== */
+.popular-course-area .container-fluid {
+  padding-left: 21%;
+    padding-right: 0; }
+    @media (min-width: 1921px) {
+      .popular-course-area .container-fluid {
+        max-width: 1140px;
+        padding-left: 15px; } }
+    @media (max-width: 1665px) {
+      .popular-course-area .container-fluid {
+        max-width: 1140px;
+        padding-left: 15px; } }
+    @media (max-width: 1199px) {
+      .popular-course-area .container-fluid {
+        max-width: 960px; } }
+    @media (max-width: 991px) {
+      .popular-course-area .container-fluid {
+        padding-right: 15px; } }
+    @media (max-width:  768px) {
+      .popular-course-area .container-fluid {
+        max-width: 720px; } }
+  .popular-course-area .section-title {
+    margin-right: 0; }
+  .popular-course-area .owl-stage {
+    padding-left: 0 !important; }
+  .popular-course-area .owl-controls {
+    position: absolute;
+    top: -95px;
+    right: 27%; }
+    @media (max-width: 991px) {
+      .popular-course-area .owl-controls {
+        display: none; } }
+ 
+    .single-popular-course  img {
+      width: 100%;
+      -webkit-transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s; }
+  .single-popular-course .name {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500; }
+  .single-popular-course .value {
+    color: #222222;
+    font-weight: 700; }
+  
+  .single-popular-course:hover {
+    cursor: pointer; }
+    .single-popular-course:hover img {
+      cursor: pointer;
+      transform: scale(1.05); }
+    .single-popular-course:hover {
+      color: #7c32ff; }
+
+
+      a, a:active, a:focus {
+        outline: none;
+     }
+    
+     button, button:active, button:focus{
+         outline: none;
+     }
+  
